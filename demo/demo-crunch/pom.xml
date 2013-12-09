@@ -38,6 +38,9 @@
         <groupId>com.cloudera.cdk</groupId>
         <artifactId>cdk-maven-plugin</artifactId>
       	<version>${cdk-version}</version>
+        <configuration>
+          <toolClass>com.cloudera.cdk.examples.demo.CreateSessions</toolClass>
+        </configuration>
       </plugin>
     </plugins>
   </build>
